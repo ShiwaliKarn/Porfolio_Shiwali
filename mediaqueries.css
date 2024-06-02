@@ -1,4 +1,4 @@
-@media screen and (max-width: 1400px) {
+@media (max-width: 1400px) {
   #profile {
     height: 83vh;
     margin-bottom: 6rem;
@@ -12,7 +12,7 @@
   }
 }
 
-@media screen and (max-width: 1200px) {
+@media (max-width: 1200px) {
 
   #experience,
   .experience-details-container {
@@ -41,14 +41,23 @@
     margin-top: 0;
   }
 }
+@media (max-width: 1110px){
+.contact-div{
+  flex-direction: column;
+}
+.contact-right input{
+  width: 70%;
+}
+.contact-right textarea{
+  width:84%;
+}
+}
 
-@media screen and (max-width: 600px) {
-  #contact,
-  footer {
-    height: 40vh;
-  }
+
+@media (max-width: 600px) {
+
   #profile {
-    height: 58vh;
+
     margin-bottom: 0;
     padding-top: 83px;
   }
@@ -80,7 +89,7 @@
 
   .section__pic-container {
     width: auto;
-    height: 46vw;
+
     justify-content: center;
   }
   .section__text__p2 {
