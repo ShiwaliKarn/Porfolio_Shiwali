@@ -438,3 +438,8 @@ hr {
 #copyright {
   padding: 15px 0;
 }
+
+#moon {
+  width: 30px;
+  cursor: pointer;
+}
