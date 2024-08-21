@@ -34,6 +34,7 @@
     width: 275px;
     height: 275px;
     margin: 0 auto 2rem;
+    padding-top: 30px;
   }
   .about-containers {
     margin-top: 0;
@@ -84,7 +85,7 @@
 
   .section__pic-container {
     width: auto;
-    padding-top: 30px;
+
     justify-content: center;
   }
   .section__text__p2 {
