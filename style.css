@@ -51,7 +51,6 @@ nav,
 nav {
   justify-content: space-around;
   align-items: center;
-
 }
 
 .nav-links {
@@ -80,7 +79,6 @@ a:hover {
 .logo:hover {
   cursor: default;
 }
-
 
 /* SECTIONS */
 
@@ -279,17 +277,15 @@ section {
 
 .article-container {
   display: flex;
-  text-align: initial;
+  align-items: flex-start;
   flex-wrap: wrap;
   flex-direction: row;
   gap: 2.5rem;
-  justify-content: space-around;
 }
 
 article {
   display: flex;
   width: 10rem;
-  justify-content: space-around;
   gap: 0.5rem;
 }
 
@@ -334,7 +330,6 @@ article .icon {
   /* height: 70vh; */
 }
 
-
 .contact-icon {
   cursor: default;
 }
@@ -346,7 +341,7 @@ article .icon {
 .contact-div {
   margin-top: 55px;
   display: flex;
-  gap:70px;
+  gap: 70px;
   /* flex-wrap: wrap; */
 }
 
@@ -372,6 +367,12 @@ article .icon {
   align-items: center;
   gap: 20px;
 }
+.contact-detail a {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  cursor: pointer;
+}
 
 .contact-right {
   display: flex;
@@ -392,9 +393,9 @@ article .icon {
   padding-left: 20px;
   border-radius: 4px;
   background: rgb(224, 224, 228);
-  font-size:20px ;
+  font-size: 20px;
 }
-.contact-right textarea{
+.contact-right textarea {
   width: 672px;
   border: none;
   padding: 25px;
@@ -405,7 +406,7 @@ article .icon {
   font-family: "Poppins", sans-serif;
 }
 
-.contact-submit{
+.contact-submit {
   font-size: 22px;
   background-color: black;
   color: white;
@@ -423,10 +424,17 @@ article .icon {
 /* FOOTER SECTION */
 
 footer {
-
   margin: 0 1rem;
 }
 
 footer p {
   text-align: center;
+}
+
+hr {
+  width: 90%;
+  margin: auto;
+}
+#copyright {
+  padding: 15px 0;
 }
