@@ -389,7 +389,7 @@ article .icon {
 .contact-right input {
   border: none;
   width: 619px;
-  height: 65px;
+  height: 50px;
   padding-left: 20px;
   border-radius: 4px;
   background: rgb(224, 224, 228);
@@ -402,7 +402,7 @@ article .icon {
   font-size: 20px;
   border-radius: 4px;
   background: rgb(224, 224, 228);
-  height: 110px;
+  height: 100px;
   font-family: "Poppins", sans-serif;
 }
 
