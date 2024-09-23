@@ -97,4 +97,7 @@
   .text-container {
     text-align: justify;
   }
+  #copyright {
+    font-size: 15px;
+  }
 }
